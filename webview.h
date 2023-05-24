@@ -140,7 +140,7 @@ WEBVIEW_API void webview_set_size(webview_t w, int width, int height,
 
 // Navigates webview to the given URL. URL may be a properly encoded data URI.
 // Examples:
-// webview_navigate(w, "https://github.com/webview/webview");
+// webview_navigate(w, "https://github.com/ukane-philemon/webview");
 // webview_navigate(w, "data:text/html,%3Ch1%3EHello%3C%2Fh1%3E");
 // webview_navigate(w, "data:text/html;base64,PGgxPkhlbGxvPC9oMT4=");
 WEBVIEW_API void webview_navigate(webview_t w, const char *url);

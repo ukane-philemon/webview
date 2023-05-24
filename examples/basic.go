@@ -1,6 +1,8 @@
+//go:build ignore
+
 package main
 
-import "github.com/webview/webview"
+import "github.com/ukane-philemon/webview"
 
 func main() {
 	w := webview.New(false)

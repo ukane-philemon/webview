@@ -1,9 +1,9 @@
 # webview
 
 [![Join the chat at https://gitter.im/zserge/webview](https://badges.gitter.im/zserge/webview.svg)](https://gitter.im/zserge/webview?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://img.shields.io/github/workflow/status/webview/webview/CI%20Pipeline)](https://github.com/webview/webview)
-[![GoDoc](https://godoc.org/github.com/webview/webview?status.svg)](https://godoc.org/github.com/webview/webview)
-[![Go Report Card](https://goreportcard.com/badge/github.com/webview/webview)](https://goreportcard.com/report/github.com/webview/webview)
+[![Build Status](https://img.shields.io/github/workflow/status/webview/webview/CI%20Pipeline)](https://github.com/ukane-philemon/webview)
+[![GoDoc](https://godoc.org/github.com/ukane-philemon/webview?status.svg)](https://godoc.org/github.com/ukane-philemon/webview)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ukane-philemon/webview)](https://goreportcard.com/report/github.com/ukane-philemon/webview)
 
 A tiny cross-platform webview library for C/C++/Go to build modern cross-platform GUIs.
 
@@ -189,7 +189,7 @@ curl -sSLo basic.go "https://raw.githubusercontent.com/webview/webview/master/ex
 Install dependencies:
 
 ```sh
-go get github.com/webview/webview
+go get github.com/ukane-philemon/webview
 ```
 
 Build and run the example:
@@ -310,13 +310,13 @@ Calling `Eval()` or `Dispatch()` before `Run()` does not work because the webvie
 
 Language    | Project
 ----------  | -------
-C#          | [webview/webview_csharp](https://github.com/webview/webview_csharp)
+C#          | [webview/webview_csharp](https://github.com/ukane-philemon/webview_csharp)
 Crystal     | [naqvis/webview](https://github.com/naqvis/webview)
-Deno        | [webview/webview_deno](https://github.com/webview/webview_deno)
+Deno        | [webview/webview_deno](https://github.com/ukane-philemon/webview_deno)
 Go          | [webview/webview][webview]
 Haskell     | [lettier/webviewhs](https://github.com/lettier/webviewhs)
 Janet       | [janet-lang/webview](https://github.com/janet-lang/webview)
-Java        | [webview/webview_java](https://github.com/webview/webview_java)
+Java        | [webview/webview_java](https://github.com/ukane-philemon/webview_java)
 Kotlin      | [Winterreisender/webviewko](https://github.com/Winterreisender/webviewko)
 Nim         | [oskca/webview](https://github.com/oskca/webview)
 Pascal      | [PierceNg/fpwebview](http://github.com/PierceNg/fpwebview)
@@ -347,14 +347,14 @@ Code is distributed under MIT license, feel free to use it in your proprietary p
 
 [macos-app-bundle]:  https://developer.apple.com/library/archive/documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html
 [docs-repo]:         https://github.com/webview/docs
-[examples]:          https://github.com/webview/webview/tree/master/examples
-[go-docs]:           https://pkg.go.dev/github.com/webview/webview
+[examples]:          https://github.com/ukane-philemon/webview/tree/master/examples
+[go-docs]:           https://pkg.go.dev/github.com/ukane-philemon/webview
 [gtk]:               https://docs.gtk.org/gtk3/
 [issues]:            https://github.com/webview/docs/issues
-[issues-new]:        https://github.com/webview/webview/issues/new
+[issues-new]:        https://github.com/ukane-philemon/webview/issues/new
 [webkit]:            https://webkit.org/
 [webkitgtk]:         https://webkitgtk.org/
-[webview]:           https://github.com/webview/webview
+[webview]:           https://github.com/ukane-philemon/webview
 [webview.dev]:       https://webview.dev
 [ms-webview2]:       https://developer.microsoft.com/en-us/microsoft-edge/webview2/
 [ms-webview2-sdk]:   https://www.nuget.org/packages/Microsoft.Web.WebView2

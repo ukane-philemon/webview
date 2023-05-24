@@ -82,7 +82,7 @@ type WebView interface {
 
 	// Navigate navigates webview to the given URL. URL may be a properly encoded data.
 	// URI. Examples:
-	// w.Navigate("https://github.com/webview/webview")
+	// w.Navigate("https://github.com/ukane-philemon/webview")
 	// w.Navigate("data:text/html,%3Ch1%3EHello%3C%2Fh1%3E")
 	// w.Navigate("data:text/html;base64,PGgxPkhlbGxvPC9oMT4=")
 	Navigate(url string)
