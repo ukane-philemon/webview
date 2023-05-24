@@ -830,7 +830,7 @@ private:
                                       "WebviewAppDelegate", 0);
     class_addProtocol(cls, objc_getProtocol("NSTouchBarProvider"));
     class_addMethod(cls, "applicationShouldTerminateAfterLastWindowClosed:"_sel,
-                    (IMP)(+[](id, SEL, id) -> BOOL { return 1; }), "c@:@");
+                    (IMP)(+[](id, SEL, id) -> BOOL { return 0; }), "c@:@");
     // If the library was not initialized with an existing window then the user
     // is likely managing the application lifecycle and we would not get the
     // "applicationDidFinishLaunching:" message and therefore do not need to
